@@ -1,0 +1,25 @@
+@use './settings' as *;
+
+html {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+input,
+textarea,
+button,
+select {
+  font-family: $font-family;
+}
